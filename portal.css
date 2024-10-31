@@ -1,0 +1,162 @@
+body {
+    font-family: 'Tahoma', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: paleturquoise;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    margin: 15px 0;
+}
+
+nav a {
+    color: red;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+h1 {
+    margin: 0;
+    color: black;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: x-large;
+    font-weight: 100;
+    text-align: justify ;
+    background: pink;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    font-size: x-large;
+    font-weight: 200;
+    text-align: justify;
+}
+
+section {
+    font-size: x-large;
+    font-weight: 500;
+    text-align: center;
+    color:black;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+input[type="confirm-password"],
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="password"]:focus,
+input[type="confirm-password"]:focus,
+select:focus {
+    border-color: #007bff;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    background: #007bff;
+    color: white;
+    border: none;
+    position: center;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background: #b35100;
+}
+
+::placeholder {
+    text-align: justify;
+    font-size: large;
+    font-weight: 200;
+}
+
+fieldset ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+fieldset ul li {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+}
